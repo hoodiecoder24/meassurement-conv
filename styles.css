@@ -1,0 +1,111 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header b {
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  margin: 0 10px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav a button:hover {
+  background-color: #0056b3;
+}
+
+section {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+figure {
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+figcaption {
+  font-style: italic;
+  color: #666;
+  margin-top: 6px;
+}
+
+aside {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 20px;
+  background: #e9ecef;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
